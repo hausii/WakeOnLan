@@ -11,7 +11,7 @@ https://code.activestate.com/recipes/users/2143621/ and was extened with a YAML 
 Usage
 -----
 
-  wol.py
+  Create a configuration file with the hosts you want to wake up and save it in the same directory as wol.py . Extecute the wol.py script. 
 
 Configuration
 -------------
