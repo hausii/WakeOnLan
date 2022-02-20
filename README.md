@@ -11,6 +11,7 @@ Usage
 -----
 
   Create a configuration file with the hosts you want to wake up and save it in the same directory as wol.py . Extecute the wol.py script, no arguments are required.
+  Make sure you have PyYAML installed, please see https://pyyaml.org on installation instructions for your system.
 
 Configuration
 -------------
