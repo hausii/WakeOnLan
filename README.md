@@ -11,16 +11,13 @@ https://code.activestate.com/recipes/users/2143621/ and was extened with a YAML 
 Usage
 -----
 
-  Create a configuration file with the hosts you want to wake up and save it in the same directory as wol.py . Extecute the wol.py script. 
+  Create a configuration file with the hosts you want to wake up and save it in the same directory as wol.py . Extecute the wol.py script.
 
 Configuration
 -------------
 
-A wol_config.yml file must be saved in the same directory as wol.py. It contains the computer configurations for all the hosts that should be woken up. I have included a wol_config_sample.yml you can rename and moifiy with your hosts. For each host the name and MAC address must be defined. The MAC address can either be with seperators (:,-) or without.
+A wol_config.yml file must be saved in the same directory as wol.py. It contains the computer configurations for all the hosts that should be woken up. I have included a wol_config_sample.yml you can rename and moifiy with your hosts. For each host the name and MAC address must be defined. The MAC address can be defined with any kind of seperator. 
 
-1:
-    hostname: XXX
-    MAC_address: XX:XX:XX:XX:XX:XX
 
 License
 -------
