@@ -1,0 +1,9 @@
+1:
+    hostname: host1
+    MAC_address: 00:00:00:00:00:00
+2:
+    hostname: host2
+    MAC_address: 00:00:00:00:00:00
+3:
+    hostname: host3
+    MAC_address: 00:00:00:00:00:00
