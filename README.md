@@ -1,12 +1,11 @@
 WOL Python3
 ===========
 
-This Python3 script is used to remotely wake up computers on the local network.
+This is a simple Python3 script which is used to remotely wake up computers on the local network.
 
-You can specify the MAC address and execute the python script to wake up the computer on the local network.
+You can specify the MAC addresses in a configuration fiel and execute the python script.
 
-The script is based on an ActiveState recipe and was updated for Python3
-https://code.activestate.com/recipes/users/2143621/ and was extened with a YAML configuration file where you can specify multiple computers.
+The script is based on an ActiveState recipe (https://code.activestate.com/recipes/users/2143621/) and was updated for Python3. The ability to define multiple computers in a simple YAML configuration file was added.
 
 Usage
 -----
@@ -16,9 +15,9 @@ Usage
 Configuration
 -------------
 
-A wol_config.yml file must be saved in the same directory as wol.py. It contains the computer configurations for all the hosts that should be woken up. I have included a wol_config_sample.yml you can rename and moifiy with your hosts. For each host the name and MAC address must be defined. The MAC address can be defined with any kind of seperator. 
+  A wol_config.yml file must be saved in the same directory as wol.py. It contains the computer configurations for all the hosts that should be woken up. I have included a wol_config_sample.yml you can rename and moifiy with your hosts. For each host the name and MAC address must be defined. The MAC address can be defined with any kind of seperator.
 
 
 License
 -------
-Copyright (c) Hannes Hausegger, released under MIT License, see [LICENSE](LICENSE)
+  Copyright (c) Hannes Hausegger, released under MIT License, see [LICENSE](LICENSE)
