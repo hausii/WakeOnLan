@@ -10,7 +10,7 @@ The script is based on an ActiveState recipe (https://code.activestate.com/recip
 Usage
 -----
 
-  Create a configuration file with the hosts you want to wake up and save it in the same directory as wol.py . Extecute the wol.py script.
+  Create a configuration file with the hosts you want to wake up and save it in the same directory as wol.py . Extecute the wol.py script, no arguments are required.
 
 Configuration
 -------------
