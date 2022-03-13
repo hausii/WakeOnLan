@@ -18,6 +18,10 @@ Configuration
 
   A wol_config.yml file must be saved in the same directory as wol.py. It contains the computer configurations for all the hosts that should be woken up. I have included a wol_config_sample.yml you can rename and moifiy with your hosts. For each host the name and MAC address must be defined. The MAC address can be defined with any kind of seperator.
 
+MacOS Application usage
+  -------------
+
+  If you want to create a MacOS Icon to launch the script you can use Script Editor to simply run the command and save it as an application. Once saved you can modify the icon via the Finder properties. Simply modify the path the MacOS Script.scpt file and save it.   
 
 License
 -------
